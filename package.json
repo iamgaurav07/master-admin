@@ -1,0 +1,37 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "all backend services for the masters-union.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/masters-union/api.git"
+  },
+  "author": "Malkit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/masters-union/api/issues"
+  },
+  "homepage": "https://gitlab.com/masters-union/api#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.5.3",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.11",
+    "multer": "^1.4.2",
+    "noogger": "^0.1.8",
+    "jsonwebtoken": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "bcryptjs": "*"
+  }
+}
